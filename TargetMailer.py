@@ -13,6 +13,11 @@ class TargetMailer:
         self.FROM = "CS40 Assassin <2026scs40assassin@gmail.com>"
         self.dry = dry
 
+        rules_file = "rules.txt"
+
+        f = open(rules_file, "r", encoding="utf-8")
+        self.rules = f.read()
+
     def send_target(
         self,
         assassin,
@@ -29,7 +34,9 @@ class TargetMailer:
             template = f"""\
 Welcome to CS40 Assassin, {assassin.name}!
 Your target has been selected as {target.name}, good skill!
-RULES HERE
+
+The rules of assassin, are below:
+{self.rules}
 """
 
             msg = EmailMessage()
