@@ -1,0 +1,16 @@
+- All players will be assigned a distinct target, and attempt to "assassinate"
+the target. The game will run until a single player remains un-"assassinated".
+
+- All players will carry a plastic spoon. A player can attack their target by
+tapping them with their spoon, assassinating them.
+
+- Once a victim is assassinated, the assassin will take on the target of the
+victim. If the victim has the assassin as the target, ???
+
+- Both the victim and the assassin must update in the Slack if the victim has
+been assassinated. 
+
+- A player cannot be assassinated if they are visibly displaying a plushy. 
+
+- A player cannot be assassinated if they are actively in class, actively in a
+meeting, in the bathroom, or at their home.
