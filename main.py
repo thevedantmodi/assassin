@@ -22,12 +22,12 @@ def main():
         ]
     )
 
-    # Do not forget to set verbose=False, dry=False
-    targets = generator.generate(verbose=True)
-    # mailer = TargetMailer(targets, dry=False)
-    # mailer.send_mails(
-    # verbose=False,
-    # )
+    # Do not forget to set verbose=False, dry=False for production work
+    targets = generator.generate(verbose=False)
+    mailer = TargetMailer(targets, dry=True)
+    mailer.send_mails(
+        verbose=False,
+    )
 
 
 if __name__ == "__main__":
