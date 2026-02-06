@@ -5,12 +5,18 @@ the target. The game will run until a single player remains un-"assassinated".
 tapping them with their spoon, assassinating them.
 
 - Once a victim is assassinated, the assassin will take on the target of the
-victim. If the victim has the assassin as the target, ???
+victim. If the victim has the assassin as the target, stop playing for this
+round.
 
 - Both the victim and the assassin must update in the Slack if the victim has
 been assassinated. 
 
-- A player cannot be assassinated if they are visibly displaying a plushy. 
+- A player cannot be assassinated if they are visibly displaying a stuffed animal.
 
 - A player cannot be assassinated if they are actively in class, actively in a
 meeting, in the bathroom, or at their home.
+
+- You must provide video evidence of the assassin.
+
+- Plastic spoons to come -- I will leave them in a TBD location in the JCC for
+you to take.

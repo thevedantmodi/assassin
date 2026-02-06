@@ -36,7 +36,7 @@ class AssassinGenerator:
         if verbose:
             print("Generating assassin list...")
 
-        targets = self.gen()
+        targets = self.gen(verbose)
         # check that assignments are ok
         while any(a.name == t.name for a, t in targets.items()):
             targets = self.gen()
